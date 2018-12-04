@@ -1,0 +1,57 @@
+.block-a{
+    background-color: dodgerblue;
+    height: 570px;    
+}
+.block-b{   
+}
+
+.aLeft{
+    text-align: justify;
+    margin-top: 200px;
+    margin-left: 150px;
+    color: white;
+    font-size: 11px;
+    line-height: 7;
+
+}
+.bRight{
+    margin-left: 120px;
+    margin-right: 150px; 
+    margin-top: 180px;
+}
+/* .join{
+    text-align: left;
+} */
+.btn-block{
+    border-radius: 999px;
+}
+.btn-outline-primary{
+    border-radius: 990px;
+}
+.fab fa-twitter{
+    size: 3px;
+    color: dodgerblue;
+}
+.fas fa-users{
+    padding: 10px;
+}
+.log{
+    margin-left: auto;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.footer{
+    padding: 2px;
+}
+.footer a{
+    font-size: 12px;
+    color: grey;
+}
+/* h3 .aLeft{
+    line-height: 1.8pt
+} */
+.twicon{
+    height: 10px;
+}
