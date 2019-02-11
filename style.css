@@ -1,57 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .block-a{
     background-color: dodgerblue;
-    height: 570px;    
 }
-.block-b{   
+.block-b{
+    float: right;
 }
-
 .aLeft{
-    text-align: justify;
-    margin-top: 200px;
-    margin-left: 150px;
+    margin: 250px 0 0 150px;
     color: white;
-    font-size: 11px;
     line-height: 7;
+}
+ .aLeft .fa{
+    padding-right: 20px;
 
 }
 .bRight{
-    margin-left: 120px;
-    margin-right: 150px; 
-    margin-top: 180px;
+    margin: 250px 150px 0 150px;
 }
-/* .join{
-    text-align: left;
-} */
-.btn-block{
+.log1{
+    float:right;
+}
+.btn{
     border-radius: 999px;
-}
-.btn-outline-primary{
-    border-radius: 990px;
-}
-.fab fa-twitter{
-    size: 3px;
-    color: dodgerblue;
-}
-.fas fa-users{
-    padding: 10px;
-}
-.log{
-    margin-left: auto;
 }
 hr{
     margin-top: 0;
     margin-bottom: 0;
 }
 .footer{
-    padding: 2px;
+    padding-top: 5px;
 }
 .footer a{
     font-size: 12px;
     color: grey;
 }
-/* h3 .aLeft{
-    line-height: 1.8pt
-} */
-.twicon{
-    height: 10px;
+.row{
+    height:95vh;
 }
+
+@media(min-width: 200px){
+
+ .bRight{
+        margin: 20px 20px 0 20px;
+        padding-top: 20px;
+    }
+    .aLeft{
+        margin: 40px 20px 0 40px;
+        padding-top: 20px;
+        line-height: 4;
+    }
+    .aLeft .fa{
+        padding-right: 10px;
+    }
+    
+}
+@media(min-width: 768px){
+    .aLeft{
+        margin: 120px 0 0 20px;
+        color: white;
+        line-height: 7;
+    }
+     .aLeft .fa{
+        padding-right: 20px;
+    
+    }
+    .bRight{
+        margin: 150px 0 0 20px;
+    }
+    
+}  
+@media(min-width: 1023px){
+    .aLeft{
+        margin: 250px 0 0 150px;
+        color: white;
+        line-height: 7;
+    }
+     .aLeft .fa{
+        padding-right: 20px;
+    
+    }
+    .bRight{
+        margin: 250px 150px 0 150px;
+    }
+}  
